@@ -1,0 +1,16 @@
+{
+    "site": {
+        "name": "<%= meta.site_name %>",
+        "cachebust": "<%= grunt.template.today(\"yyyymmddHHMM\") %>",
+        "gtm_id": ""
+    },
+    "page": {
+        "template": "index",
+        "show_h1": true
+    },
+
+    "content_dir": "content",
+    "widget_dir": "src/widgets",
+    
+    "widgets": []
+}

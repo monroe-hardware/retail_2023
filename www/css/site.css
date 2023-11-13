@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+}
+
+header, .bg-dark {
+    background-color: #030 !important;
+    color: #ccc;
+}
+
+.bg-secondary {
+    background-color: #696 !important;
+}
+
+.btn-primary {
+    background-color: #636 !important;
+    border-color: #636 !important;
+}
+
+.card-footer {
+    background-color: rgba(0, 64, 0, 0.03) !important;
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -6em;
+    padding: 0 0 6em;
+}
+
+footer {
+    background-color: #030;
+    color: #ccc;
+    height: 6em;
+}
+
+.dropdown:focus-within > .dropdown-menu { display: block; }

@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "gh-pages": "^6.0.0",
+    "grunt": "^1.6.1",
+    "grunt-contrib-concat": "^2.1.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-less": "^3.0.0",
+    "grunt-contrib-uglify": "^5.2.2",
+    "trilliant-tedious": "github:unidyne/trilliant-tedious",
+    "trilliant-webserver": "github:unidyne/trilliant-webserver"
+  }
+}

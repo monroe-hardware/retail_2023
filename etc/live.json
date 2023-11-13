@@ -1,0 +1,9 @@
+{
+    "buildTemplates": {
+        "options": {
+            "site": {
+                "live": true
+            }
+        }
+    }
+}

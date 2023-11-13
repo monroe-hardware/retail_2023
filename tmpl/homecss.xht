@@ -1,0 +1,42 @@
+<style type="text/css">
+.slider {
+    white-space: nowrap;
+    position:relative;
+    overflow:hidden;
+}
+.slider:before,
+.slider:after {
+  position: absolute;
+  top: 0;
+  width: 5rem;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+.slider:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+.slider:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.slider .logos {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+}
+
+.logos .vlogo {
+    display:inline-block;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+</style>

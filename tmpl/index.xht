@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{%init%}
+</head>
+<body>
+<div id="wrap">
+
+{%header%}
+
+
+<main class="container px-4 px-lg-5">
+{%IF page.show_h1}
+    <div class="row gx-4 gx-lg-5 align-items-center my-5">
+        <h1>{{page.title}}</h1>
+    </div>
+{%ENDIF}
+{{content}}
+</main>
+</div>
+
+{%footer%}
+{%exit%}
+</body>
+</html>

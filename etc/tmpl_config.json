@@ -2,7 +2,7 @@
     "site": {
         "name": "<%= meta.site_name %>",
         "cachebust": "<%= grunt.template.today(\"yyyymmddHHMM\") %>",
-        "gtm_id": ""
+        "gtm_id": "GTM-NKKW8GLZ"
     },
     "page": {
         "template": "index",
